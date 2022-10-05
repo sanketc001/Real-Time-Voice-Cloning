@@ -119,7 +119,7 @@ if __name__ == '__main__':
     print("Interactive generation loop")
     num_generated = 0
     while True:
-        try:
+        # try:
             # Get the reference audio filepath
             message = "Reference voice: enter an audio filepath of a voice to be cloned (mp3, " \
                       "wav, m4a, flac, ...):\n"
@@ -203,6 +203,6 @@ if __name__ == '__main__':
             print("\nSaved output as %s\n\n" % filename)
 
 
-        except Exception as e:
-            print("Caught exception: %s" % repr(e))
-            print("Restarting\n")
+        # except Exception as e:
+        #     print("Caught exception: %s" % repr(e))
+        #     print("Restarting\n")
